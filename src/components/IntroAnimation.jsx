@@ -7,7 +7,7 @@ const IntroAnimation = ({ onFinish = () => {} }) => {
     "Hello", "नमस्ते", "Hola", "Bonjour",
       "Ciao", "Olá", "Здравствуйте",
       "Merhaba", "Γειά", "Hej", "Hallo", "Salam"
-
+ 
   ],[])
 
   const [index, setIndex] = useState(0);
