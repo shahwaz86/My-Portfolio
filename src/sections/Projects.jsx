@@ -62,7 +62,7 @@ const Projects = () => {
   const activeProject = projects[activeIndex];
 
   return (
-    <section ref={sceneRef} id='#projects' className='relative text-white'
+    <section ref={sceneRef} id='projects' className='relative text-white'
     style={{
       height: `${100*projects.length}vh`,
       backgroundColor: activeProject.bgColor,
@@ -99,7 +99,7 @@ const Projects = () => {
     )}
   </AnimatePresence>
                 <a href={project.link} target="_blank" rel="noopener noreferrer" className='block w-full group'>
-              <div className={`relative w-full overflow-hidden bg-black/20 shadow-2xl md:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.7) transition-transform duration-300 group-hover:scale-[1.01] ${isMobile ? "mb-6 rounded-xl" : "mb-10 sm:mb-12 rounded-xl"} h-[62vh] sm:h-[66vh]]`} 
+              <div className={`relative w-full overflow-hidden bg-black/20 shadow-2xl md:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.7) transition-transform duration-300 group-hover:scale-[1.01] ${isMobile ? "mb-6 rounded-xl" : "mb-10 sm:mb-12 rounded-xl"} h-[62vh] sm:h-[66vh]`} 
               style={{
                 zIndex: 10,
                 transition : "box-shadow 250ms ease"
